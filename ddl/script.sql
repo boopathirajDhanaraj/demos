@@ -1,7 +1,7 @@
 -- Checking
 -- Table structure for table `db_table_source1` (Source 1)
 --
-DROP TABLE IF EXISTS `db_table_source1`;
+DROP TABLE  `db_table_source1`;
 commit;
 CREATE TABLE `db_table_source1` (
   `PurchaseID` bigint(20) NOT NULL,
@@ -15,7 +15,7 @@ commit;
 --
 -- Table structure for table `db_table_source2` (Source 2)
 --
-DROP TABLE IF EXISTS `db_table_source2`;
+DROP TABLE `db_table_source2`;
 commit;
 CREATE TABLE `db_table_source2` (
   `CustomerID` bigint(20) NOT NULL,
@@ -26,7 +26,7 @@ commit;
 --
 -- Table structure for table `db_table_source3` (Source 3)
 --
-DROP TABLE IF EXISTS `db_table_source3`;
+DROP TABLE  `db_table_source3`;
 commit;
 CREATE TABLE `db_table_source3` (
   `ProductID` bigint(20) NOT NULL,
@@ -38,7 +38,7 @@ commit;
 --
 -- Table structure for table `Thiru_Test` (Target)
 --
-DROP TABLE IF EXISTS `Thiru_Test`;
+DROP TABLE  `Thiru_Test`;
 commit;
 CREATE TABLE `Thiru_Test` (
   `PurchaseID` bigint(20) NOT NULL,
