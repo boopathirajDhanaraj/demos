@@ -6,3 +6,4 @@ CREATE TABLE `db_table_source1` (
   `DOP` datetime DEFAULT NULL,
   `Amount` float DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+-- Check
