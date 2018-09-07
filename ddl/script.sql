@@ -1,4 +1,4 @@
---
+-- Checking
 -- Table structure for table `db_table_source1` (Source 1)
 --
 DROP TABLE IF EXISTS `db_table_source1`;
