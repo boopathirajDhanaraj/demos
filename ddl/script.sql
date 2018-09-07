@@ -1,9 +1,7 @@
--- Checking
--- Table structure for table `db_table_source1` (Source 1)
---
-DROP TABLE  `db_table_source1`;
-commit;
-CREATE TABLE `db_table_source1` (
+
+DROP TABLE  db_table_source1;
+
+CREATE TABLE db_table_source1 (
   `PurchaseID` bigint(20) NOT NULL,
   `CustomerID` bigint(20) NOT NULL,
   `ProductID` int(20) NOT NULL,
@@ -11,7 +9,7 @@ CREATE TABLE `db_table_source1` (
   `Amount` float DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
-commit;
+
 --
 -- Table structure for table `db_table_source2` (Source 2)
 --
