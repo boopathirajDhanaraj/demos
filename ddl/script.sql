@@ -9,7 +9,8 @@ CREATE TABLE `db_table_source1` (
   `ProductID` int(20) NOT NULL,
   `DOP` datetime DEFAULT NULL,
   `Amount` float DEFAULT NULL
-);
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
 commit;
 --
 -- Table structure for table `db_table_source2` (Source 2)
