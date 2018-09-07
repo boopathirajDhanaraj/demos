@@ -1,0 +1,24 @@
+for(String col: equalList) {
+						if(col.contains(alaisName)) {
+							String[] getTableColumn1 = col.split(alaisName);
+							for(String alais: getTableColumn1) {
+								if(!(alais.trim().equals("")||alais.trim().equals(AppConstants.NULL_VALUE))) {
+									alais = alais.replaceAll("[<>]", "");
+									getTableColumn[j] = alais;
+									j++;
+								}
+							}
+						} else if(col.trim().startsWith("\"")||col.trim().startsWith("\'")) {
+							if(j<equalList.length/2) {
+								getTableColumn[j] = "BI3_TAT_TRUE";
+								j++;
+							}
+						} else if(col.trim().length() == 1){
+							if(j<equalList.length/2) {
+								getTableColumn[j] = "BI3_TAT_FALSE";
+								j++;
+								break;
+							}
+						}	
+					
+				}
