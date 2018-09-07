@@ -1,1 +1,1 @@
-DROP TABLE  db_table_source1;
+DROP TABLE IF EXISTS db_table_source1;
