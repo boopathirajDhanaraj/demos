@@ -1,4 +1,4 @@
-drop table  IF EXISTS `db_table_source1` /n
+drop table  IF EXISTS `db_table_source1` '/n'
 CREATE TABLE `db_table_source1` (
   `PurchaseID` bigint(20) NOT NULL,
   `CustomerID` bigint(20) NOT NULL,
