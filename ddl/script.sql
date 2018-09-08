@@ -1,5 +1,5 @@
-SET NAMES 'utf8';
-drop table  IF EXISTS `db_table_source1`;
+SET NAMES "ascii";
+drop table  IF EXISTS "db_table_source1";
 commit;
 CREATE TABLE `db_table_source1` (
   `PurchaseID` bigint(20) NOT NULL,
